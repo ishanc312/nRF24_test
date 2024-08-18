@@ -21,8 +21,6 @@ void setup() {
   radio.openWritingPipe(address);
   radio.setPALevel(RF24_PA_MIN);
   radio.stopListening();
-
-  delay(5);
 }
 
 void loop() {
